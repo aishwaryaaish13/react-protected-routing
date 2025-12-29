@@ -1,0 +1,30 @@
+.form-container {
+  width: 320px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
